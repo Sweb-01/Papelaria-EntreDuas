@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EntreDuas/papelaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- CABEÇALHO -->
+    <header>
+
+        <div class="topo">
+
+            <div class="logo">
+                <h1>Entre Duas</h1>
+                <p>Papelaria</p>
+            </div>
+
+            <button class="botao-carrinho" onclick="abrirCarrinho()">
+                🛒
+                <span id="contador">0</span>
+            </button>
+
+        </div>
+
+    </header>
+  <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <section class="banner">
+
+            <h2>Entre Duas</h2>
+
+            <p>
+                Papelaria, presentes e muito mais ✨
+            </p>
+
+        </section>
+
+
+        <!-- CATEGORIAS -->
+        <nav class="categorias">
+
+            <button onclick="filtrarProdutos('todos')">
+                Todos
+            </button>
+
+            <button onclick="filtrarProdutos('canetas')">
+                Canetas
+            </button>
+
+            <button onclick="filtrarProdutos('lapiseiras')">
+                Lapiseiras
+            </button>
+
+            <button onclick="filtrarProdutos('acessorios')">
+                Acessórios
+            </button>
+
+            <button onclick="filtrarProdutos('presentes')">
+                Presentes
+            </button>
+
+        </nav>
+
+
+        <!-- PRODUTOS -->
+        <section class="produtos" id="produtos">
+
+            <!-- Os produtos vão ser colocados no JavaScript -->
+
+        </section>
+
+    </main>
+
+    <!-- CARRINHO -->
+    <aside class="carrinho" id="carrinho">
+
+        <div class="cabecalho-carrinho">
+
+            <h2>Seu carrinho 🛒</h2>
+
+            <button onclick="fecharCarrinho()">✕</button>
+
+        </div>
+
+
+        <div id="listaCarrinho">
+
+            <p class="carrinho-vazio">
+                Seu carrinho está vazio.
+            </p>
+
+        </div>
+
+
+        <div class="final-carrinho">
+
+            <div class="total">
+
+                <span>Total:</span>
+
+                <strong id="total">
+                    R$ 0,00
+                </strong>
+
+            </div>
+
+            <button class="finalizar" onclick="finalizarPedido()">
+                Finalizar pedido
+            </button>
+
+        </div>
+
+    </aside>
+
+     <!-- FUNDO QUANDO O CARRINHO ABRIR -->
+    <div
+        class="fundo"
+        id="fundo"
+        onclick="fecharCarrinho()">
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
