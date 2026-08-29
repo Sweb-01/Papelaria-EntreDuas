@@ -6,39 +6,111 @@ const produtos = [
 
     {
         id: 1,
-        nome: "Chaveiro",
-        descricao: "Chaveiro fofo",
-        preco: 19.50,
+        nome: "Necessaire Bolsinha de Mão Amarela De tudo um pouco 14x20cm – Floriê",
+        descricao: "Necessaire Bolsinha de Mão Amarela De tudo um pouco 14x20cm – Floriê",
+        preco: 26.99,
         categoria: "acessorios",
-        imagem: "img/produto1.jpg"
+        imagem: "img/bolsinha de mao amarela.jpeg"
     },
 
     {
         id: 2,
-        nome: "Caneta diversas Cores",
-        descricao: "Caneta colorida com 6 cores",
-        preco: 12.50,
-        categoria: "canetas",
-        imagem: "img/produto2.jpg"
+        nome: "Porta Coisinhas Rosa Cesta de Flores – Floriê",
+        descricao: "Porta Coisinhas Rosa Cesta de Flores – Floriê",
+        preco: 19.99,
+        categoria: "acessorios",
+        imagem: "img/bolsinha rosa cesta de flores.jpeg"
     },
 
     {
         id: 3,
-        nome: "kit de Lapiseiras lindas",
-        descricao: "Conjunto de lapiseiras 0.5 mm",
-        preco: 18.00,
-        categoria: "lapiseiras",
-        imagem: "img/produto3.jpg"
+        nome: "Porta Coisinhas Pink Incrível – Floriê",
+        descricao: "Porta Coisinhas Pink Incrível – Floriê",
+        preco: 19.99,
+        categoria: "acessorios",
+        imagem: "img/bolsinha pink.jpeg"
     },
 
     {
         id: 4,
-        nome: "Caneta bic",
-        descricao: "Caneta esferográfica preta",
-        preco: 7.00,
-        categoria: "canetas",
-        imagem: "img/produto4.jpg"
-    }
+        nome: "Porta Coisinhas Roxo Lindo – Floriê",
+        descricao: "Porta Coisinhas Roxo Lindo – Floriê",
+        preco: 19.99,
+        categoria: "acessorios",
+        imagem: "img/bolsinha roxa.jpeg"
+    },
+
+    {
+        id: 5,
+        nome: "Porta Coisinhas Azul Coisinhas Felizes – Floriê",
+        descricao: "Porta Coisinhas Azul Coisinhas Felizes – Floriê",
+        preco: 19.99,
+        categoria: "acessorios",
+        imagem: "img/bolsinha coisas felizes.jpeg"
+    },
+
+     {
+        id: 6,
+        nome: "Porta Coisinhas Bege Floresça – Floriê",
+        descricao: "Porta Coisinhas Bege Floresça – Floriê",
+        preco: 19.99,
+        categoria: "acessorios",
+        imagem: "img/bolsinha floresça onde estiver.jpeg"
+    },
+
+      {
+        id: 7,
+        nome: "Porta Coisinhas Verde Flor Listras – Floriê",
+        descricao: "Porta Coisinhas Verde Flor Listras – Floriê",
+        preco: 19.99,
+        categoria: "acessorios",
+        imagem: "img/bolsinha flor listras.jpeg"
+    },
+
+     {
+        id: 8,
+        nome: "Bolsinha de Mão Listrada Rosa Laço – Floriê",
+        descricao: "Bolsinha de Mão Listrada Rosa Laço – Floriê",
+        preco: 29.99,
+        categoria: "acessorios",
+        imagem: "img/bolsinha listrada rosa laço.jpeg"
+    },
+
+     {
+        id: 9,
+        nome: "Necessaire Telada Roxa Com Zíper – Floriê",
+        descricao: "Necessaire Telada Roxa Com Zíper – Floriê",
+        preco: 19.99,
+        categoria: "acessorios",
+        imagem: "img/bolsinha lilas telada.jpeg"
+    },
+
+     {
+        id: 10,
+        nome: "Necessaire G Campestre Xadrez Bege Flores – Floriê",
+        descricao: "Necessaire G Campestre Xadrez Bege Flores – Floriê",
+        preco: 53.99,
+        categoria: "acessorios",
+        imagem: "img/Necessaire G Campestre Xadrez Bege Flores.jpeg"
+    },
+
+     {
+        id: 11,
+        nome: "Necessaire P Campestre Xadrez Bege Flores – Floriê",
+        descricao: "Necessaire P Campestre Xadrez Bege Flores – Floriê",
+        preco: 43.99,
+        categoria: "acessorios",
+        imagem: "img/Necessaire P Campestre Xadrez Bege Flores.jpeg"
+    },
+
+     {
+        id: 12,
+        nome: "Mini Bolsa Transversal Flor Pastel – Uniso (Uni.)",
+        descricao: "Mini Bolsa Transversal Flor Pastel – Uniso",
+        preco: 14.99,
+        categoria: "acessorios",
+        imagem: "img/Mini Bolsa Transversal Flor Pastel.jpeg"
+    },
 
 ];
 
