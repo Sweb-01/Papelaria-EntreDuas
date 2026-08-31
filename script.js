@@ -616,7 +616,7 @@ const produtos = [
         descricao:"Card Surpresa para Colorir Bobbie Goods c/4 desenhos",
         preco: 3.99,
         categoria: "arte",
-        imagem: "img/Card Surpresa para Colorir Bobbie Goods c/4 desenhos.jpeg"
+        imagem: "img/Card Surpresa para Colorir Bobbie Goods com 4 desenhos.jpeg"
     },
 
      {
