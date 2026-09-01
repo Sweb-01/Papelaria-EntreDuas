@@ -81,25 +81,16 @@ header {
 
 .banner {
     max-width: 1200px;
+    height: 230px;
+
     margin: 30px auto;
 
-    padding: 50px 20px;
-
-    text-align: center;
-
-    background:  #b6e7a5ea;
+    background-image: url("img/logobanner.jpeg");
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
 
     border-radius: 20px;
-
-}
-
-.banner h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.banner p {
-    font-size: 17px;
 }
 
 
@@ -394,13 +385,13 @@ header {
         height: 160px;
     }
 
-    .banner {
-        margin: 20px 10px;
-    }
+   .banner {
+    height: 180px;
+    margin: 20px 10px;
 
-    .banner h2 {
-        font-size: 28px;
-    }
+    background-size: cover;
+    background-position: center 30%;
+}
 
     .carrinho {
         width: 90%;
